@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sim_1/new/tb.v,1708320035,verilog,,,,tb,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/FIFO.v,1708150460,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_master.v,,FIFO,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_master.v,1708150471,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_slave.v,,apb_master,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_slave.v,1708166343,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/ctrl3.v,,apb_slave,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/ctrl3.v,1708147514,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/encodec.v,,ctrl3,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/encodec.v,1708150464,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/fifo2.v,,encodec,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/fifo2.v,1708318192,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/sram2.v,,fifo2,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/sram2.v,1708319561,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v,,sram2,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v,1708160773,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/uarttx.v,,top,,,,,,,,
+C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/uarttx.v,1708321488,verilog,,C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sim_1/new/tb.v,,uarttx,,,,,,,,

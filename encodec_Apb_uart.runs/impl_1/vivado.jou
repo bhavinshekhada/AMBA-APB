@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Feb 17 12:44:34 2024
+# Process ID: 6492
+# Current directory: C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.runs/impl_1/top.vdi
+# Journal file: C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.runs/impl_1\vivado.jou
+# Running On: DESKTOP-GH2P793, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8299 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

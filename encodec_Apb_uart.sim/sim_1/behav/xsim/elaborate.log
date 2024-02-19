@@ -1,0 +1,43 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/intern/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'psel' [C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v:78]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'psel' [C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v:90]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/FIFO.v" Line 4. Module FIFO doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/encodec.v" Line 3. Module encodec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_master.v" Line 2. Module apb_master doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_slave.v" Line 2. Module apb_slave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/fifo2.v" Line 1. Module fifo2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/sram2.v" Line 2. Module sram2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/ctrl3.v" Line 1. Module ctrl3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/uarttx.v" Line 1. Module uarttx(CLKS_PER_BIT=87) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/FIFO.v" Line 4. Module FIFO doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/encodec.v" Line 3. Module encodec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_master.v" Line 2. Module apb_master doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/apb_slave.v" Line 2. Module apb_slave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/fifo2.v" Line 1. Module fifo2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/sram2.v" Line 2. Module sram2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/ctrl3.v" Line 1. Module ctrl3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Dell/encodec_Apb_uart/encodec_Apb_uart.srcs/sources_1/new/uarttx.v" Line 1. Module uarttx(CLKS_PER_BIT=87) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FIFO
+Compiling module xil_defaultlib.encodec
+Compiling module xil_defaultlib.apb_master
+Compiling module xil_defaultlib.apb_slave
+Compiling module xil_defaultlib.sram2
+Compiling module xil_defaultlib.fifo2
+Compiling module xil_defaultlib.ctrl3
+Compiling module xil_defaultlib.uarttx(CLKS_PER_BIT=87)
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
